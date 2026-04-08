@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List in HTML</title>
+</head>
+<body>
+    <h1>List and it's type</h1>
+
+    <H1>list Tag</H1>
+    <li>Here is list tag</li>
+
+
+    <h1>Ordered List</h1>
+    <ol>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+    </ol>
+        
+    <h1>Types of ordered list</h1>
+
+    <ol type="1">
+        <li>Say Hello</li>
+        <li>Say Hello</li>
+        <li>Say Hello</li>
+    </ol>
+
+    <ol type="a">
+        <li>Say Hello</li>
+        <li>Say Hello</li>
+        <li>Say Hello</li>
+    </ol>
+
+    <ol type="A">
+        <li>Say Hello</li>
+        <li>Say Hello</li>
+        <li>Say Hello</li>
+    </ol>
+
+    <ol type="i">
+        <li>Say Hello</li>
+        <li>Say Hello</li>
+        <li>Say Hello</li>
+    </ol>
+
+    <ol type="I">
+        <li>Say Hello</li>
+        <li>Say Hello</li>
+        <li>Say Hello</li>
+    </ol>
+    
+
+    <h1>Nested list</h1>
+
+    <H1>list:University</H1>
+    <ul>
+        <li>Faculty Menbers</li>
+
+        <li>VC</li>
+        <li>HOD</li>
+        <li>Departments</li>
+            <ol>
+                <li>Software Engeenring</li>
+                    <ol>
+                        <li>Hod</li>
+                        <li>Teachers</li>
+                            <ul type="circle">
+                                <li>Permanent Teachers</li>
+                                <li>Visitors Teachers</li>
+                            </ul>
+                        <li>Students</li>
+                            <ul type="circle">
+                            <li>Good Students</li>
+                            <li>Bad Students</li>
+                            </ul>
+                        <li>Rooms</li>
+                        <li>Offices</li>
+                    </ol>
+                <li>Computer Science</li>
+                <li>Information Technology</li>
+                <li>Cyber Security</li>
+            </ol>
+        <li>Teachers</li>
+            <td> Permanent Teachers</td> <br>
+            <td> Visitors Teachers</td>
+        <li>Students</li>
+        <li>Security Guard</li>
+        <li>Sports Complex</li>
+        <li>Students</li>
+            <ol>
+                <li>Girls Parks</li>
+                <li>Boys Parks</li>
+            </ol>
+        <li>Green Beld</li>
+        <li>Cafetarea</li>
+            <ol >
+                <li>Main Cafetarea</li>
+                <li>Heritage</li>
+            </ol>
+    </ul>
+     
+
+
+    <h1>Proceding Text</h1>
+
+        <ol type="I">
+            <li>List item 1</li>
+                <ol type="a">
+                    <li>Nested Item 1.1</li>
+                    <li>Nested Item 1.2</li>
+                </ol>
+            <li>List item 2</li>
+                <ol type="1">
+                    <li>Nested Item 2.1</li>
+                    <li>Nested Item 2.2</li>
+                        <ul type="circle">
+                            <li>Nested Item 2.2.1</li>
+                            <li>Nested Item 2.2.2</li>
+                                <ul>
+                                    <li>Nested Item 2.2.2.1</li>
+                                    <li>Nested Item 2.2.2.2</li>
+                                </ul>
+                            <li>Nested Item2.2.3</li>
+                        </ul>
+                    <li>Nested Item2.3</li>
+                </ol>
+            <li>List item 3</li>
+                <ul type="disc">
+                    <li>Nested Item 3.1</li>
+                    <li>Nested Item 3.2</li>
+                    <li>Nested Item 3.3</li>
+                </ul>
+        </ol>
+
+
+
+        <hr>
+
+
+
+        <h1><center>Tables</center></h1>
+
+
+
+        <h1>1. <i>A Test table with merged cells</i></h1>
+        <table border="" height="200px" width="400px">
+            <thead>
+                <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red eyes</th>
+                </tr>
+                
+                <tr>
+                    <th>height</th>
+                    <th>weight</th>                  
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <th>Males</th>
+                    <td>1.9</td>
+                    <td>0.003</td>
+                    <td>40%</td>
+                </tr>
+
+                <tr>
+                    <th>Females</th>
+                    <td>1.7</td>
+                    <td>0.002</td>
+                    <td>43%</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+         <br><br><br>
+
+         <h1>2.</h1>
+        <table border="1" height="200px" width="400px">
+            <thead>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Row 1 Cell 1</td>
+                    <td>Row 1 Cell 2</td>
+                    <td>Row 1 Cell 3</td>
+                </tr>
+                <tr>
+                    <td>Row 2 Cell 2</td>
+                    <td>Row 2 Cell 3</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Row 3 Cell 1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+<br><br><br>
+
+        <h1>3.</h1>
+        <table border="1" height="200px" width="700px">
+            <thead>
+                <tr>
+                    <th>Level 1</th>
+                    <th>Level 2</th>
+                    <th>Level 3</th>
+                    <th>Info</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="6">System</td>
+                    <td rowspan="4">System Apps</td>
+                    <td rowspan="3">SystemEnv</td>
+                    <td>App Test</td>
+                    <td>foo</td>
+                </tr>
+                <tr>
+                    <td>App Memory</td>
+                    <td>foo</td>
+                </tr>
+                <tr>
+                    <td>App Test</td>
+                    <td>bar</td>
+                </tr>
+                <tr>
+                    <td>SystemEnv2</td>
+                    <td>App Test</td>
+                    <td>bar</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">System Memory</td>
+                    <td rowspan="2">Memory Test</td>
+                    <td>Memory Function</td>
+                    <td>foo</td>
+                </tr>
+                <tr>
+                    <td>App Test</td>
+                    <td>foo</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br><br>
+
+            <h1>4. Time Table</h1>
+        <table border="1" height="250px" width="1000px"> 
+            <thead>
+                <th>Day/Period</th>
+                <th>I <br> 9:30 to 10:20</th>
+                <th>II <br> 10:20 to 11:10</th>
+                <th>III <br> 11:10 to 12:00</th>
+                <th> 12:00 to 12:40</th>
+                <th>IV <br> 12:40 to 1:30</th>
+                <th>V <br> 1:30 to 2:20</th>
+                <th>VI <br> 2:20 to 3:10</th>
+                <th>VII <br> 3:10 to 4:00</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Monday</th>
+                    <td style="text-align: center;">Eng</td>
+                    <td style="text-align: center;">Mat</td>
+                    <td style="text-align: center;">Che</td>
+                    <th rowspan="7">L <br>U <br>N <br>C <br> H</th>
+                    <td style="text-align: center;" colspan="3">Lab</td>
+                    <td style="text-align: center;">Phy</td>
+                </tr>
+                <tr>
+                    <th>Tuesday</th>
+                    <td style="text-align: center;" colspan="3">Lab</td>
+                    <td style="text-align: center;">Eng</td>
+                    <td style="text-align: center;">Mat</td>
+                    <td style="text-align: center;">Che</td>
+                    <td style="text-align: center;">SPORTS</td>
+                </tr>
+                <tr>
+                    <th>Wednesday</th>
+                    <td style="text-align: center;">Mat</td>
+                    <td style="text-align: center;">Phy</td>
+                    <td style="text-align: center;">Eng</td>
+                    <td style="text-align: center;">Che</td>
+                    <td style="text-align: center;" colspan="3">LIBRARY</td>
+                </tr>
+                <tr>
+                    <th>Thursday</th>
+                    <td style="text-align: center;">Phy</td>
+                    <td style="text-align: center;">Eng</td>
+                    <td style="text-align: center;">Che</td>
+                    <td style="text-align: center;" colspan="3">Lab</td>
+                    <td style="text-align: center;">Mat</td>
+                </tr>
+                <tr>
+                    <th>Friday</th>
+                    <td style="text-align: center;" colspan="3">Lab</td>
+                    <td style="text-align: center;">Mat</td>
+                    <td style="text-align: center;">Che</td>
+                    <td style="text-align: center;">Eng</td>
+                    <td style="text-align: center;">Phy</td>
+                </tr>
+                <tr>
+                    <th>Saturday</th>
+                    <td style="text-align: center;">Eng</td>
+                    <td style="text-align: center;">Che</td>
+                    <td style="text-align: center;">Mat</td>
+                    <td colspan="3" style="text-align: center;">SEMINAR</td>
+                    <td style="text-align: center;">SPORTS</td>
+                </tr>
+            </tbody>       
+        </table>
+
+        <br><br><br>
+</body>
+</html>
